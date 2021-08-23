@@ -1,0 +1,23 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "E:\\\\projects\\\\panoptic\\\\panoptic\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_57df08da"
+  },
+  {
+    "name": "oldindex",
+    "path": "/oldindex",
+    "component": "E:\\\\projects\\\\panoptic\\\\panoptic\\\\pages\\\\oldindex.vue",
+    "chunkName": "pages/oldindex",
+    "_name": "_7af38122"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\projects\\\\panoptic\\\\panoptic\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7ea06c6a"
+  }
+]
