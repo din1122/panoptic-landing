@@ -1,4 +1,25 @@
 {
+  "Chart": {
+    "description": "Auto imported from components/Chart.vue"
+  },
+  "DataComp": {
+    "description": "Auto imported from components/dataComp.vue"
+  },
+  "Dots": {
+    "description": "Auto imported from components/dots.vue"
+  },
+  "Earnings": {
+    "description": "Auto imported from components/earnings.vue"
+  },
+  "Freehand": {
+    "description": "Auto imported from components/Freehand.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/hero.vue"
+  },
+  "Loader2": {
+    "description": "Auto imported from components/loader2.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },

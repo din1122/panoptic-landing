@@ -17,9 +17,24 @@
   font-weight: "Bold";
   src: url(@/assets/fonts/HelveticaNowDisplay-Bold.ttf)  format('truetype');
 }
+.text-white{
+color:white !important;
+transition:.2s ease all
+}
+.text-dark{
+color:#212B36;
+}
 
+.theme--light.v-application{
+  background-color:#FBFCFE !important
+}
 $body-font-family: Helvetica-Regular ;
-
+.fw-bold{
+  font-family: Helvetica-Bold;
+}
+.v-application{
+  font-family: Helvetica-Regular !important;
+}
 body {
   font-family: Helvetica-Regular !important;
   margin: 0;
@@ -31,7 +46,9 @@ html{
   scroll-behavior: smooth;
   transition:all ease-in-out;
 }
-
+.features-title {
+  font-size:32px;
+}
 .lottie-env {
   width: 100%;
   height: 150%;
@@ -68,15 +85,25 @@ html{
   margin-top: -10vh;
 }
 .feature {
-  padding:10vh 0 5vh 0;
+  padding:15vh 0 15vh 0;
 }
 .feature-2 {
   padding:5vh 0 15vh 0;
 }
+.contact{
+  padding:25vh 0 25vh 0;
+}
 .phone-img{
   object-fit: cover;
-  height:1000px;
-  width:100%;
+  // height:1000px;
+  // width:100%;
+  position: relative;
+  width:50%;
+
+}
+a{
+  text-decoration: none;
+  color:white ;
 }
 .main-btn{
   background:#A1FAEE !important;
@@ -84,6 +111,7 @@ html{
   max-width:260px !important;
   width:260px;
   text-transform: none !important;
+  font-size:14px !important;
   height:42px !important;
 }
 .main-btn-2{
@@ -112,5 +140,159 @@ html{
 margin-bottom:-20vh;
 }
 .contact-container {
-  padding:10vh 2vh 10vh 2vh !important;
+  position: relative;
+  z-index: 1;
+  padding:6vh 8vh 6vh 8vh !important;
+}
+.v-toolbar__content{
+  height: 80px !important;
+}
+.panoptic-logo{
+  transition: 0.2s all ease-in-out;
+  width:220px;
+}
+#dots-bg{
+  position: absolute;
+  width: 60%;
+  right: -15%;
+}
+#dots-bg-2{
+  position: absolute;
+  width: 60%;
+  left: -15%;
+}
+
+/* USERS COMP */
+.Usersdata {
+  background:#FEFEFE;
+}
+.comp-number{
+  color:#4E5161;
+  font-size:24px;
+}
+.comp-label{
+  color:#8F92A1;
+}
+.comp-pos{
+  color:#6DCF6D;
+//  transition: ease all .2s ;
+  animation: important1 1s infinite;
+}
+.comp-neg{
+  color:#D45C5C;
+animation: important1 1s infinite;
+}
+.comp-title{
+  color:#180F3D;
+  font-weight:800;
+  font-size:16px;
+}
+@keyframes important1 {
+  from { transition: translateX(0px) }
+  to { transition: translateX(10px) }
+}
+.comp-dropdown{
+  color:#8289A3;
+  margin-left: auto;
+}
+.colored{
+  color:blue !important
+}
+.theme--light.v-input{
+  color:transparent !important;
+}
+
+.drop-down{
+  margin-top:-5px;
+}
+.prim-shadow{
+  box-shadow: 2px 2px 4px 3px rgba(5, 51, 237, 0.03);
+  background:white;
+}
+.box-shadow{
+  box-shadow: 2px 2px 4px 3px rgba(5, 51, 237, 0.03) !important
+}
+.Usersdata{
+  border-radius: 8px;
+}
+.Usersdata .theme--light.v-text-field > .v-input__control > .v-input__slot:before{
+  border-color:transparent !important
+}
+.menu-link {
+  color:white !important;
+  transition:.2s ease all
+}
+.menu-link:hover {
+  color:#A1FAEE !important;
+  transition:.2s ease all
+}
+.footer-links {
+  color:#424242 !important;
+  transition:.2s ease all
+}
+.footer-links:hover {
+  color:#000 !important;
+  transition:.2s ease all
+}
+.bg-primary{
+  background:#2C00EC;
+  width:100%;
+}
+.footer-2-links a:hover{
+  color:#A1FAEE !important;
+  transition:.2s ease all
+}
+.w-60{
+  width:60%;
+}
+.w-50{
+  width:50%;
+}
+.dots-img{
+  position: absolute;
+  z-index:0;
+  transform: matrix(1, 0, 0, 1, 44, -80);
+}
+.dots-img2{
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  transform: matrix(1, 0, 0, 1, 0, -80);
+}
+.dots-img-contact{
+  position: absolute;
+  z-index: 0;
+  width: 60%;
+  transform: matrix(1, 0, 0, 1, 664, -800);
+}
+.components-container{
+  z-index:1;
+}
+.pos-relative{
+  position: relative;
+}
+.transparent-menu{
+  background:transparent;
+  transition: all .2s ease-in-out;
+}
+.float-menu{
+  transition: all .2s ease-in-out;
+  background:#2C00EC !important;
+}
+.menu {
+  display:flex !important;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.v-toolbar__content{
+  width:100%;
+}
+.float-menu .panoptic-logo{
+  transform: scale(0.8);
+  transition: 0.2s all ease-in-out;
+}
+.freehand{
+  padding:10vh 0px 6vh 0px ;
 }

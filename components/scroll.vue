@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="lottie-env env-last">
+    <section id="how-it-works" class="text-white lottie-env env-last">
       <div id="lottie-coin">
         <div class="overflow">
             <v-container fluid fill-height>
@@ -10,7 +10,7 @@
           </v-flex>
 
           <div class="steps-container d-flex col-6 flex-column fill-height justify-center">
-            <div class="d-flex col-6 offset-2 flex-column align-center fill-height justify-center steps-container-m">
+            <div class="d-flex col-md-6 offset-2 flex-column align-center fill-height justify-center steps-container-m">
             <div class="box">
 
               <p class="text-white" style="font-size:28px">How it works</p>

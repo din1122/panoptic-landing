@@ -1,5 +1,12 @@
 [
   {
+    "name": "Comp",
+    "path": "/Comp",
+    "component": "E:\\\\projects\\\\panoptic\\\\panoptic\\\\pages\\\\Comp.vue",
+    "chunkName": "pages/Comp",
+    "_name": "_7c6e0ec6"
+  },
+  {
     "name": "inspire",
     "path": "/inspire",
     "component": "E:\\\\projects\\\\panoptic\\\\panoptic\\\\pages\\\\inspire.vue",

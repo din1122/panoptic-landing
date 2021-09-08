@@ -3,7 +3,7 @@ import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } fr
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
 import NuxtError from '..\\layouts\\error.vue'
-import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtLoading from '~/components/loader2.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\assets\\css\\style.scss'
